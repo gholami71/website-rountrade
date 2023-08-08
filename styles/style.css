@@ -1,1 +1,96 @@
-/*# sourceMappingURL=style.css.map */
+@font-face {
+  font-family: "Bold";
+  src: url("../public/font/IBMPlexArabic-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "SemiBold";
+  src: url("../public/font/IBMPlexArabic-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Medium";
+  src: url("../public/font/IBMPlexArabic-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Regular";
+  src: url("../public/font/IBMPlexArabic-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Light";
+  src: url("../public/font/IBMPlexArabic-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Thin";
+  src: url("../public/font/IBMPlexArabic-Thin.ttf") format("truetype");
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  direction: rtl;
+  font-family: "Regular";
+}
+
+header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  background-color: #111C36;
+}
+header .login {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-right: 25px;
+}
+header .login a {
+  padding: 5px 30px;
+  color: #F3F1EF;
+  font-family: "Medium";
+  font-size: 15pt;
+  text-decoration: none;
+  background-color: #26C5A8;
+  border-radius: 5px;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: row-reverse;
+}
+header .login a .next {
+  position: relative;
+  transform: rotate(180deg);
+  width: 50px;
+  transition: transform 1s ease;
+}
+header .login a .next > span {
+  color: #F3F1EF;
+  position: absolute;
+  font-size: 20pt;
+}
+header .login a:hover {
+  background-color: #4fceb6;
+  padding: 5px 50px;
+}
+header .login a:hover .next :nth-child(1) {
+  transform: translateX(10px);
+}
+header .login a:hover .next :nth-child(3) {
+  transform: translateX(-10px);
+}
+header .LogoContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 250px;
+  justify-content: center;
+  align-items: flex-end;
+}
+header .LogoContainer :nth-child(1) {
+  width: 20%;
+}
+header .LogoContainer :nth-child(2) {
+  width: 50%;
+  margin: 0px 20px;
+}/*# sourceMappingURL=style.css.map */
