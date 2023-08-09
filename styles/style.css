@@ -173,8 +173,82 @@ header .LogoContainer :nth-child(2) {
   border-radius: 5px;
 }
 .benefit .title h2 {
+<<<<<<< HEAD
   margin-right: 20px;
   color: #5398FF;
   font-family: "SemiBold";
   font-size: 13pt;
+=======
+  margin-right: 10px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background: #222B40;
+}
+footer > div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+footer .content {
+  margin: 20px 0px;
+}
+footer .content > div {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  border-left: 1px #F3F1EF solid;
+  padding: 0px 20px;
+}
+footer .content .pages a {
+  color: #F3F1EF;
+  font-size: 12pt;
+  font-family: "Medium";
+}
+footer .content .Contact_us p {
+  color: #F3F1EF;
+  margin: 10px;
+  font-size: 12pt;
+  font-family: "Regular";
+}
+footer .content .links p {
+  color: #F3F1EF;
+  font-size: 14pt;
+}
+footer .content .links > div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+footer .content .links > div a {
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+footer .content .links > div a span {
+  height: 100%;
+  width: 100%;
+  font-size: 15pt;
+  background: #FFFFFF;
+  color: #5398FF;
+  border-radius: 50%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .copyright {
+  padding: 20px 0px;
+  background: rgba(236, 232, 229, 0.05);
+}
+footer .copyright a {
+  text-decoration: none;
+  font-family: "SemiBold";
+  color: #FFFFFF;
+>>>>>>> e146708deb0ada3d2a72f4860a8a4e26a94ece53
 }/*# sourceMappingURL=style.css.map */
