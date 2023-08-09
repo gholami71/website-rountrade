@@ -203,21 +203,29 @@ header{
         flex-direction: column;
         width: calc(50% - 100px);
         margin: 30px;
-        background-color: $colorLinen;
+        background-color: $colorMilkWhite;
         padding: 20px
        
     }
 
-    h2{
-        font-family: $FontRegular;
-        font-size: 13pt;
-    }
+    
     .title{
         display: flex;
         flex-direction: row;
         align-items: center;
+
+        :nth-child(1){
+            font-size: 18pt;
+            background-color: $colorQuillGrey;
+            color: mix($colorMangoOrange, #ec1616,50);
+            padding: 5px 5px 0px 5px;
+            border-radius: 5px;
+        }
         h2{
-            margin-right: 10px;
+            margin-right: 20px;
+            color: $colorSoftBlue;
+            font-family: $FontSemiBold;
+            font-size: 13pt;
         }
     }
     
