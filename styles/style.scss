@@ -191,3 +191,34 @@ header{
 
     }
 }
+
+.benefit{
+    display: flex;
+    flex-direction: row;
+    background-color: $colorQuillGrey;
+    flex-wrap: wrap;
+    width: 100%;
+    >div{
+        display: flex;
+        flex-direction: column;
+        width: calc(50% - 100px);
+        margin: 30px;
+        background-color: $colorLinen;
+        padding: 20px
+       
+    }
+
+    h2{
+        font-family: $FontRegular;
+        font-size: 13pt;
+    }
+    .title{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        h2{
+            margin-right: 10px;
+        }
+    }
+    
+}
