@@ -20,7 +20,7 @@ const Footer = () =>{
                     </div>
                 </div>
                 <div className="pages">
-                    <a>قوانین</a>
+                    <a href="https://app.roundtrade.ir/rules">قوانین</a>
                     <a>درباره ما</a>
                     <a>سوالات متداول</a>
                 </div>

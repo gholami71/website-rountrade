@@ -173,13 +173,10 @@ header .LogoContainer :nth-child(2) {
   border-radius: 5px;
 }
 .benefit .title h2 {
-<<<<<<< HEAD
   margin-right: 20px;
   color: #5398FF;
   font-family: "SemiBold";
   font-size: 13pt;
-=======
-  margin-right: 10px;
 }
 
 footer {
@@ -203,6 +200,9 @@ footer .content > div {
   flex: 1;
   border-left: 1px #F3F1EF solid;
   padding: 0px 20px;
+}
+footer .content :last-child {
+  border-left: 0px;
 }
 footer .content .pages a {
   color: #F3F1EF;
@@ -250,5 +250,4 @@ footer .copyright a {
   text-decoration: none;
   font-family: "SemiBold";
   color: #FFFFFF;
->>>>>>> e146708deb0ada3d2a72f4860a8a4e26a94ece53
 }/*# sourceMappingURL=style.css.map */

@@ -204,7 +204,7 @@ header{
         width: calc(50% - 100px);
         margin: 30px;
         background-color: $colorMilkWhite;
-        padding: 20px
+        padding: 20px;
        
     }
 
@@ -252,6 +252,10 @@ footer{
             flex: 1;
             border-left: 1px $colorLinen solid;
             padding: 0px 20px;
+          
+        }
+        :last-child{
+            border-left: 0px;
         }
         .pages{
             
